@@ -9,6 +9,10 @@ Vagrant.configure('2') do |config|
     p.options = '--verbose'
   end
 
+  config.vm.provider :virtualbox do |vbox|
+    vbox.gui = true
+  end
+
   config.vm.define :cloud0 do |c0|
     c0.vm.hostname = 'cloud0.contiki.puppetlabs.vm'
   end
