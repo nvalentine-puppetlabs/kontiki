@@ -1,4 +1,4 @@
 dev-puppet-module
 =================
 
-Scaffolding for Puppet module development with Vagrant
+All-in-one OpenStack Grizzly lab environment.
