@@ -18,7 +18,7 @@ node /^cloud0.*$/ {
   $fixed_network_range     = '10.0.0.0/24'
   $floating_network_range  = '192.168.101.64/28'
   $secret_key              = 'secret_key'
-  $verbose                 = true,
+  $verbose                 = true
   $auto_assign_floating_ip = false
 
   include 'apache'
